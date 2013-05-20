@@ -1,4 +1,0 @@
-ecui
-====
-
-ecui upgrade
