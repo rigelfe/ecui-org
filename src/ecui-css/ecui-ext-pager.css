@@ -1,0 +1,37 @@
+.ui-ext-pager {
+    color: #3C75A2;
+    display: block; 
+    text-align: right;
+    *display: inline;
+    *zoom: 1;
+}
+.ui-ext-pager-sum {
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+    *display: inline;
+    *zoom: 1;
+}
+
+.ui-ext-pager-sum em {
+    margin: 0 3px;
+    font-style: normal;
+}
+
+.ui-ext-pager-page {
+    float: left;
+    display: inline-block; 
+}
+
+.ui-ext-pager-pagesize {
+    display: inline-block;
+    margin-left: 5px;
+    *display: inline;
+    *zoom: 1;
+}
+
+.ui-ext-pager-pagesize .ui-select {
+    margin: 0 3px;
+    color: #333;
+    text-align: left;
+}
