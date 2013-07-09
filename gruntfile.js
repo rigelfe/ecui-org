@@ -49,7 +49,8 @@ module.exports = function(grunt) {
                     '<%= dirs.cssSrc %>/ecui-lite-table.css',
                     '<%= dirs.cssSrc %>/ecui-custom.css',
                     '<%= dirs.cssSrc %>/ecui-custom-pager.css',
-                    '<%= dirs.cssSrc %>/ecui-table-editor.css'
+                    '<%= dirs.cssSrc %>/ecui-table-editor.css',
+                    '<%= dirs.cssSrc %>/ecui-x-calendar.css'
                 ],
                 dest: '<%= dirs.cssDest %>/ecui-concat.css'
             },
@@ -87,6 +88,9 @@ module.exports = function(grunt) {
                     '<%= dirs.jsSrc %>/calendar/month-calender.js',
                     '<%= dirs.jsSrc %>/calendar/calendar.js',
                     '<%= dirs.jsSrc %>/calendar/multi-calendar.js',
+                    '<%= dirs.jsSrc %>/calendar/x-calendar-view.js',
+                    '<%= dirs.jsSrc %>/calendar/x-calendar-layer.js',
+                    '<%= dirs.jsSrc %>/calendar/x-calendar.js',
 
                     '<%= dirs.jsSrc %>/tree/tree-view.js',
                     '<%= dirs.jsSrc %>/tree/check-tree.js',
@@ -143,7 +147,7 @@ module.exports = function(grunt) {
         clean: {
             removeMiddleFiles: [
                 '<%= dirs.jsDest %>/ecui-concat.css',
-                //'<%= dirs.jsDest %>/ecui-concat.js',
+                '<%= dirs.jsDest %>/ecui-concat.js',
                 '<%= dirs.jsDest %>/business-concat.js'
             ]
         }
