@@ -1,5 +1,5 @@
 /**
- * @author hades(denghongqi@baidu.com)
+ * @author hades(denghongqi@gmail.com)
  * 表格读取第一行宽度值
  */
 (function() {
